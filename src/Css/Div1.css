@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x:hidden ;
+    width:100vw;
+}
+
+body {
+    background-color:  white;
+    /* overflow: hidden; */
+    /* Prevent scrolling */
+    width: 100vw;
+}
+#home-main {
+    display: flex;
+    background-color: #191919;
+}
+
+#logo {
+    background-color: #fc3e59;
+    width: 330px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    /* Adjusted margin to move it up */
+    position: relative;
+    /* Enable positioning within the parent */
+}
+
+.homelogo {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    margin-top: -30px;
+}
+
+#logo-reverse {
+    margin-left: -25px;
+}
+
+#logo-text {
+    position: absolute;
+    bottom: 25px;
+    /* Adjust the distance from the bottom */
+    color: white;
+    font-size: 35px;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    /* Add padding */
+    font-family: 'Graduate', serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .home {
+    list-style-type: none;
+    padding: 0;
+    margin-left: -315px;
+    margin-top: 240px;
+  }
+  
+  .home-li {
+    display: block;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 50px;
+    background: url('bullets.png') no-repeat 12px 50%;
+    padding-left: 45px;
+    transition: color 0.3s, background-image 0.3s, transform 0.3s;
+  }
+
+#main {
+    background-image: url("images/mainbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    max-width: calc(100% - 330  px);
+    height: auto; /* Updated to auto to stretch till the end */
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    padding-left: 150px;
+    padding-top: 85px;
+    position: relative;
+}
+
+.main-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-text {
+    color: white;
+    /* text-align: center; Center text */
+    font-size: large;
+    /* padding: 20px; */
+    /* z-index: 2; */
+    left: 0px;
+    position: relative;
+}
+
+#loginButton,
+#search-button,
+#login-text {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    /* right: 5px; */
+    /* right: 20px; */
+}
+
+.login,
+#search-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#login-button,
+#search-button {
+    padding: 8px;
+}
+
+#login-text {
+    color: white;
+    margin-left: 5px;
+    padding: 12px;
+    right: 130px;
+}
+
+.home-li:hover,
+.home-li.selected {
+    color: #fc3e59;
+    /* Color change on hover */
+    background-image: url('bulletsred.png');
+    /* Replace 'bulletsred.png' with the actual path */
+    background-repeat: no-repeat;
+    background-position: 12px 50%;
+    /* Adjusted background position */
+    padding-left: 45px;
+    /* Adjusted padding */
+    transform: scale(1.1);
+}
+
+#loginButton {
+    right: 200px;
+}
+
+#search-button {
+    right: 20px;
+}
+
+#big-text {
+    font-size: 110px;
+    line-height: 100px;
+    font-family: 'Graduate', serif;
+}
+
+.login,
+.main-text,
+#search-button {
+    z-index: 2;
+}
+
+#small-text {
+    width: 900px;
+    height: 80px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+#contact-us {
+    background-color: #fc3e59;
+    color: white;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    position: relative;
+    font-size: 17px;
+    /* line-height: 100px; */
+    color: #ffffff;
+    font-family: 'Graduate', serif;
+    }
+    center{
+        text-align: left;
+    }
+.horizontal-line {
+        border: 2px solid #393939;
+        /* margin: 20px 30px; */
+        margin-left: -300px;
+        margin-right: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* border-color: #393939; */
+}
+.phone,
+.email {
+    list-style-type: none;
+    padding: 0;
+    margin-left: -315px;
+    margin-top: 10px; /* Adjusted margin-top */
+}
+
+.phone-li{
+    display: block;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    line-height: 60px;
+    background: url('phone.png') no-repeat 12px 50%;
+    padding-left: 45px;
+    transition: color 0.3s, transform 0.3s;
+}
+.email-li{
+    display: block;
+    color: white;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    line-height: 20px;
+    background: url('email.png') no-repeat 12px 50%;
+    padding-left: 45px;
+    transition: color 0.3s, transform 0.3s;
+}
+.phone-li:hover, .email-li:hover{
+    color: #fc3e59;
+    padding-left: 45px;
+    transform: scale(1.1);
+}
+.facebook,
+.twitter,
+.linkedin {
+    border: 1px solid white;
+    padding-bottom: 40px
+    ;
+    /* padding: 10px; */
+    /* margin-left: 20px; */
+}
+.facebook{
+    margin-top: 20px;
+    margin-left: -310px;
+    padding: 20px;
+}
+.twitter{
+    margin-left: 20px;
+    padding: 20px;
+    padding-top: 22px;
+}
+.linkedin{
+margin-left: 20px;
+padding: 20px;
+}
+#contact{
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 576px)
+
+{
+    /* Adjustments for the home main container */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        overflow-x: hidden;
+        width:100vw
+    }
+    #home-main {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Center items horizontally */
+        padding: 0; 
+        overflow-x: hidden;
+    }
+
+    /* Adjustments for elements inside #home-main */
+    #home-main .home {
+        margin-left: 0;
+        list-style-type: none;
+         /* Remove the left margin */
+    }
+
+    #home-main .home-li {
+        font-size: 10px; /* Decrease font size */
+        /* line-height: 25px; Adjust line height */
+        text-align: left; /* Adjust left padding */
+        background: none;
+    }
+
+    #home-main #main {
+       width: 100%;
+       max-height: 100%;
+       
+    }
+    #main{
+        padding: 0;
+        padding-left: 5%;
+        margin: 0;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    #home-main  {
+        width: auto; /* Remove fixed width */
+        /* padding: 0 20px; Add padding */
+        font-size: 12px; /* Decrease font size */
+        line-height: 25px; /* Adjust line height */
+    }
+    #row2{
+        margin-top: -220px;
+        /* padding-top: 0px; */
+    }
+    #contact{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+    #logo{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    #search-button{
+        display: none;}
+    #home-main #big-text {
+        font-size: 30px;
+        line-height: 20px;
+        padding: 0;
+
+    }
+    #home-main #small-text {
+       line-height: 10px;
+       font-size:9px;
+       text-align: justify;
+    }
+    #contact-us{
+        padding: 10px 15px;  
+        text-align: center;
+        font-size: small;
+        margin: 0;
+        margin: 0 auto;
+    }
+    center{
+        text-align: center;
+    }
+
+}

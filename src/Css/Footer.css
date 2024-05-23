@@ -1,0 +1,541 @@
+
+.page5 {
+  width: 100%;
+  max-width: 1912px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.testimonials{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftArrow, .rightArrow {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 6px;
+  max-width: 350px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.5);
+  height: 300px;
+}
+
+.imgContainer{
+  position: relative;
+  max-width: 350px;
+  height: 150px;
+}
+
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #fc3e59;
+  border-radius: 5px;
+}
+
+.card_img {
+  position: absolute;
+  top: 50%;  
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+}
+
+.card_img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card_info {
+  margin-top: -20px;
+}
+
+.quotes{
+  margin: 20px 0px;
+  color: #fc3e59;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #393939;
+  padding: 30px 0px;
+}
+
+.footerHeading{
+  font-size: 22px;
+  color: white;
+  margin-top: 10px;
+}
+
+.contact{
+  margin: 30px 0px;
+  font-size: 25px;
+  /* line-height: 30px; */
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Open Sans";
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  padding: 0px 10px;
+  color: white;
+}
+
+
+.horizontal-line2 {
+  width: 70%;
+  border: none; 
+  border: 1px solid #000;
+  margin: 20px 30px;
+}
+
+.copyright{
+  font-size: 10px;
+}
+.readMore{
+  border: 2px solid white;
+  padding: 15px 30px;
+  background: none;
+  color: #ffffff;
+}
+.jony-jonali{
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Graduate', serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.double-quote{
+  font-size: 29px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #e83d56;
+  font-family: "icofont";
+  text-align: center;
+}
+.text-on-img{
+  margin-top: 10px;
+}
+.Location{
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.Location-li{
+  display: inline;
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 17px;
+  cursor: pointer;
+  /* line-height: 50px; */
+  background: url('location.png') no-repeat 12px 50%;
+  /* Adjusted background position */
+  padding-left: 45px;
+  /* Adjusted padding */
+  transition: color 0.3s, background-image 0.3s, transform 0.3s;
+}
+.phn-no{
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.phn-no-li{
+  display: inline;
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 17px;
+  cursor: pointer;
+  /* line-height: 50px; */
+  background: url('phone.png') no-repeat 12px 50%;
+  /* Adjusted background position */
+  padding-left: 45px;
+  /* Adjusted padding */
+  transition: color 0.3s, background-image 0.3s, transform 0.3s;
+}
+.email-last{
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.email-last-li{
+  display: inline;
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 17px;
+  cursor: pointer;
+  /* line-height: 50px; */
+  background: url('email.png') no-repeat 12px 50%;
+  /* Adjusted background position */
+  padding-left: 45px;
+  /* Adjusted padding */
+  transition: color 0.3s, background-image 0.3s, transform 0.3s;
+}
+/* Add these styles to your existing CSS file or in a <style> tag in the <head> of your HTML document */
+.page4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 50px 10%; */
+  background-color: #393939;
+}
+
+.p4col1,
+.p4col2 {
+  width: 50%;
+}
+
+.P4heading {
+  font-size: 4rem; /* Adjust as needed */
+  /* padding-top: 10vh; */
+  text-align: left;
+  margin-left: 20vh;
+  color: #ffffff;
+  font-family: 'Graduate', serif;
+  margin-bottom: 10vh;
+}
+
+.p4text {
+  color: #ffffff;
+  font-size: 1rem; /* Adjust as needed */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 450px;
+  text-align: left;
+  margin-left: 20vh;
+  margin-bottom: 0px;
+}   
+
+.p4Button {
+  margin-top: 50px; /* Adjust as needed */
+  margin-left: 20vh;
+}
+
+.p4Button-text {
+  background-color: #fc3e59;
+  padding: 20px 50px; /* Adjust as needed */
+  color: #ffffff;
+  border: none;
+  font-family: 'Graduate', serif;
+
+}
+
+.p4col2 img {
+  width: 100%; /* Make the image responsive */
+  height: auto;
+  padding: 0px;
+}
+
+.story{
+  color: #fc3e59;
+}
+
+.Page5Content {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 3%; 
+  align-items: flex-start;/* Adjust padding as needed */
+}
+
+.Page5Heading {
+  font-size: 4rem; /* Adjust as needed */
+  font-family:'Graduate', sans-serif;
+  padding-left: 40vh;
+  
+}
+
+.Page5Heading p {
+  margin-top: 10vh;
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.Page5Heading span {
+  color: #fc3e59; /* Adjust color as needed */
+}
+
+.Page5Content .col1,
+.Page5Content .col2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page5Content .col1 {
+  margin-right: 20vh;
+  padding-left: 25vh;
+}   
+.Page5Content .col2 img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.p5input{
+  background: none;
+  border: 1px solid grey ;
+  border-radius: 5%;
+  height: 7vh;
+  margin-bottom:5vh;
+  width: 50vh;
+  margin-left: 10vh;
+}
+#p5button{
+  background-color: #fc3e59;
+  height: 7vh;
+  width: 25vh;
+  color: white;
+  font-family: 'Graduate', serif;
+  font-size: 17px;
+  
+}
+.map {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-left: 25vh;
+  margin-right: 20vh;
+}
+
+.map img {
+  max-width: 100%; 
+  height: auto; 
+}
+@media screen and (max-width: 576px)
+
+{
+    /* Adjustments for the home main container */
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        overflow-x: hidden;
+        width:100vw
+    }
+    #home-main {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Center items horizontally */
+        padding: 0; 
+        overflow-x: hidden;
+    }
+
+    /* Adjustments for elements inside #home-main */
+    #home-main .home {
+        margin-left: 0;
+        list-style-type: none;
+         /* Remove the left margin */
+    }
+
+    #home-main .home-li {
+        font-size: 10px; /* Decrease font size */
+        /* line-height: 25px; Adjust line height */
+        text-align: left; /* Adjust left padding */
+        background: none;
+    }
+
+    #home-main #main {
+       width: 100%;
+       max-height: 100%;
+       
+    }
+    #main{
+        padding: 0;
+        padding-left: 5%;
+        margin: 0;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    #home-main  {
+        width: auto; /* Remove fixed width */
+        /* padding: 0 20px; Add padding */
+        font-size: 12px; /* Decrease font size */
+        line-height: 25px; /* Adjust line height */
+    }
+    #row2{
+        margin-top: -220px;
+        /* padding-top: 0px; */
+    }
+    #contact{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+    #logo{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    #search-button{
+        display: none;}
+    #home-main #big-text {
+        font-size: 30px;
+        line-height: 20px;
+        padding: 0;
+
+    }
+    #home-main #small-text {
+       line-height: 10px;
+       font-size:9px;
+       text-align: justify;
+    }
+    #contact-us{
+        padding: 10px 15px;  
+        text-align: center;
+        font-size: small;
+        margin: 0;
+        margin: 0 auto;
+    }
+    center{
+        text-align: center;
+    }
+
+
+    /* second page */
+    .Second-page .img-secondpage{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .Second-page .text-2ndpage{
+        font-size: x-small;
+        line-height: 20px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-right: 0;
+    }
+    /* third page */
+    .page3 .column2{
+        padding-top:10px ;
+    }
+    .page3Text{
+        padding: 5px;
+    }
+    /* page 4 */
+    .page4{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .page4 .P4heading{
+        font-size: xx-large;
+        margin-top: 30px;
+        white-space: nowrap; 
+        order: 1;/* Prevent text from wrapping */
+        /* overflow: hidden; Hide any overflow text */
+        /* text-overflow: ellipsis;  */
+    }
+    .page4 .p4col2{
+        order: 2;
+        margin-left: 120px;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        /* margin-top:60px ; */
+    }
+    .page4 .p4col1 .p4text-inside{
+        font-size: small;
+        /* margin-left: 5%; */
+        padding-left: 15%;
+        /* margin-right: 0; */
+        /* padding-right: 10%; */
+        width: 150%;
+        /* padding: 10px; */
+        text-align: justify;
+    }
+    .p4text{
+        padding: 0;
+        margin: 0;
+        width: 120%;
+    }
+    .page4 .p4col1  .p4Button{
+        align-items: center;
+        margin-left:70% ;
+        margin-top: 10px;
+    }
+    .page4 .p4col2 img{
+        width: 120%;
+        padding: 0;
+        margin-left:-15% ;
+    }
+    /* page 5 */
+    .Page5 .Page5Heading{
+        margin: 0;
+        padding: 5%;
+    }
+    .Page5 .Page5Content{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .Page5 .col2{
+        padding: 0;
+        padding-top: -5px;
+        width: 90%;
+        padding-left: 10%;
+
+    }
+    .Page5 .col1{
+        padding: 0;
+        padding-top: 50px;
+        margin: 0;
+    }
+    .Page5 .map{
+        width: 70%;
+        height: 70%;
+        padding: 0;
+        margin: 0;
+        margin-left :15% ;
+    }
+    /* Page 6 */
+    .pageHeading{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .card {
+        margin: 2%;
+        }
+    .card .card_info{
+        font-size: .72rem;
+    }
+    /* footer */
+    .call{
+        display: none;
+    }   
+}
